@@ -13,7 +13,9 @@
 	<script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
-<header></header>
+<header>
+	<div class="head-line"></div>
+</header>
 <section class="aside">
 	<div class="top-bg"></div>
 	<nav class="menu">
