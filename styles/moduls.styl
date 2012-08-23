@@ -1,54 +1,55 @@
 /*********************MENU***************************/
-section.nav-container
+section.aside
 	position: absolute
 	top: 40px
 	left: 10px
 	z-index: 2
 
-div.top-bg
+section.aside div.top-bg
 	background-image:url(images/top-nav.png)
 	height:35px
 	width:231px
 	background-size:100% 100%
-		
-div.bot-bg
+
+section.aside div.bot-bg
 	background-image:url(images/bot-nav.png)
 	height:54px
 	width:231px
 	background-size:100% 100%
-		
-div.nav
+
+nav.menu
 	width:228px
 	min-height:450px
 	padding-top:1px
 	background:url(images/nav-bg.png) repeat-y
 
-div.logo
+nav.menu div.logo
 	background-image:url(images/logo.png)
 	background-size:100% 100%
 	background-position:center top
 	background-repeat:no-repeat
-  	width: 200px
- 	height: 65px
+	width:200px
+	height:65px
 	margin-top:30px
 	overflow:hidden
+	margin-left: auto
+	margin-right: auto
 
-h1
+nav.menu div.logo h1
 	text-indent:-50000px
 	white-space: nowrap
-	
 
-menu
+nav.menu menu
 	margin-top:55px
 	width:184px
+	margin-left: auto
+	margin-right: auto
 
-
-li
+nav.menu li
 	background-image:url(images/li-bg.png)
 	height:38px
-	
 
-a
+nav.menu li a
 	display:block
 	padding-bottom:10px
 	padding-top:10px
@@ -61,11 +62,9 @@ a
 	text-align:center
 	text-transform:uppercase
 	text-shadow: 2px 2px 1px black
-			
 
-&:hover{
-	background-image:url(images/nav_hover.png);
-}
-&:active{
-	color:gray;
-}
+nav.menu li:hover a
+	background-image:url(images/nav_hover.png)
+
+nav.menu li a:active
+	color:gray

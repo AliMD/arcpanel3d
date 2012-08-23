@@ -16,11 +16,11 @@
 <header></header>
 <section class="aside">
 	<div class="top-bg"></div>
-	<nav class="nav">
-		<div class="logo mla mra">
+	<nav class="menu">
+		<div class="logo">
 			<h1>Arc Panel</h1>
 		</div>
-		<menu class="mla mra">
+		<menu>
 			<li><a href="#">home</a></li>
 			<li><a href="#">about</a></li>
 			<li><a href="#">portfolio</a></li>
