@@ -32,6 +32,14 @@
 	</nav>
 	<div class="bot-bg"></div>
 </section>
+<figure class="right-panel"> <!--should coded with javascript to load images-->
+	<div class='img1'></div>
+	<div class='img2'></div>
+	<div class='img3'></div>
+	<div class='img4'></div>
+	<div class='img5'></div>
+	<div class='img6'></div>
+</figure>
 <section class="slideshow">
 	<div class="noise"></div>
 	<figure class="backimg">
