@@ -1,12 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
 	<meta charset="utf-8" />
-	<title>Arc Panel 3D</title>
-	<link type="text/css" rel="stylesheet" href="style.css">
-	<!--[if IE]>
-		<script type="text/javascript" src="scripts/html5shiv-printshiv.js"></script>
-	<![endif]-->
+	<title>Arc Panel 3D | Home</title>
+	<link type="text/css" rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="scripts/html5shiv.js"></script>
 	<script type="text/javascript">
 		document.write('<script type="text/javascript" src=scripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>');
 	</script>
@@ -20,7 +18,7 @@
 	<div class="top-bg"></div>
 	<nav class="menu">
 		<div class="logo">
-			<h1>Arc Panel</h1>
+			<h1>Arc Panel 3D</h1>
 		</div>
 		<menu>
 			<li><a href="#">home</a></li>
@@ -32,23 +30,24 @@
 	</nav>
 	<div class="bot-bg"></div>
 </section>
-<figure class="right-panel"> <!--should coded with javascript to load images-->
-	<div class='img1'></div>
-	<div class='img2'></div>
-	<div class='img3'></div>
-	<div class='img4'></div>
-	<div class='img5'></div>
-	<div class='img6'></div>
-</figure>
+<aside class="right-panel"> <!--should coded with javascript to load images-->
+	<div><img src="images/right-side/1.png" alt="image1" tooltip="" /></div>
+	<div><img src="images/right-side/2.png" alt="image2" tooltip="" /></div>
+	<div><img src="images/right-side/3.png" alt="image3" tooltip="" /></div>
+	<div><img src="images/right-side/4.png" alt="image4" tooltip="" /></div>
+	<div><img src="images/right-side/5.png" alt="image5" tooltip="" /></div>
+	<div><img src="images/right-side/6.png" alt="image6" tooltip="" /></div>
+
+</aside>
 <section class="slideshow">
 	<div class="noise"></div>
-	<figure class="backimg">
+	<div class="backimg">
 
 		<script type="text/javascript">
 			for(var i=1;i<7;i++) document.write('<div class="slideshow" style="background-image :url(images/gallery/'+i+'.jpg);"></div>');
 		</script>
 
-	</figure>
+	</div>
 </section>
 <footer>
 	<div class="desc">
