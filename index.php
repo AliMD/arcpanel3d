@@ -33,6 +33,16 @@
 	</nav>
 	<div class="bot-bg"></div>
 </section>
+<section class="slideshow">
+	<div class="noise"></div>
+	<figure class="backimg">
+
+		<script type="text/javascript">
+			for(var i=1;i<7;i++) document.write('<div class="slideshow" style="background-image :url(images/gallery/'+i+'.jpg);"></div>');
+		</script>
+
+	</figure>
+</section>
 <footer>
 	<div class="desc">
 		<p>social links:</p>
