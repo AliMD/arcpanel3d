@@ -34,12 +34,6 @@
 
 
 $(function(){
-	$('.backimg > div.slideshow').fadeLoop();
-
-	var bg_f = $("div.first_bg");
-	var bg_nav = $("div.bg_nav");
-	var a1 = $("a.one");
-	var a6 = $("a.six");
 
 	$('.img5').mouseover(function(){
 		$('.img1').animate({'margin-top':'-60px'},400);
