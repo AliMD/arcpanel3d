@@ -25,9 +25,8 @@
 		<menu>
 			<li><a href="#">home</a></li>
 			<li><a href="#">about</a></li>
-			<li><a href="#">portfolio</a></li>
+			<li><a href="#">products</a></li>
 			<li><a href="#">our stores</a></li>
-			<li><a href="#">online shop</a></li>
 			<li><a href="#">contact us</a></li>
 		</menu>		
 	</nav>
