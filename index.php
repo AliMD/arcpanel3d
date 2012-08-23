@@ -31,12 +31,13 @@
 	<div class="bot-bg"></div>
 </section>
 <aside class="right-panel"> <!--should coded with javascript to load images-->
-	<div class='img1'></div>
-	<div class='img2'></div>
-	<div class='img3'></div>
-	<div class='img4'></div>
-	<div class='img5'></div>
-	<div class='img6'></div>
+	<div><img src="images/right-side/1.png" alt="image1" tooltip="" /></div>
+	<div><img src="images/right-side/2.png" alt="image2" tooltip="" /></div>
+	<div><img src="images/right-side/3.png" alt="image3" tooltip="" /></div>
+	<div><img src="images/right-side/4.png" alt="image4" tooltip="" /></div>
+	<div><img src="images/right-side/5.png" alt="image5" tooltip="" /></div>
+	<div><img src="images/right-side/6.png" alt="image6" tooltip="" /></div>
+
 </aside>
 <section class="slideshow">
 	<div class="noise"></div>
