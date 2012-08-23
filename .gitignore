@@ -1,0 +1,25 @@
+﻿#OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+#Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+#SublimeText
+*.sublime-project
+*.sublime-workspace
+
+#Designs
+designs/
+*.psd
+
+#temp and compiled files
+temp/
+jafang/
+*.css
+*.html
+*.min.js
