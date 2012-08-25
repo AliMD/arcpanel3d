@@ -1,25 +1,15 @@
-vendors = webkit moz o ms official
-transition()
-	for vendor in vendors
-		if vendor == official
-			transition: arguments
-		else
-			-{vendor}-transition: arguments
-
-
-/*********************MENU***************************/
+/* Menu section
+-------------------------------------------------- */
 section.aside
-	position: absolute
-	top: 40px
-	left: 10px
+	absolute top 40px left 10px
 	z-index: 2
   div.top-bg
-	  background-image:url(images/top-nav.png)
+	  image : 'images/top-nav.png'
 	  height:35px
 	  width:231px
 	  background-size:100% 100%
   div.bot-bg
-	  background-image:url(images/bot-nav.png)
+	  image : 'images/bot-nav.png'
 	  height:54px
 	  width:231px
 	  background-size:100% 100%
@@ -28,9 +18,10 @@ nav.menu
 	width:228px
 	min-height:450px
 	padding-top:1px
-	background:url(images/nav-bg.png) repeat-y
+	image:'images/nav-bg.png'
+	background-repeat: repeat-y
   div.logo
-	  background-image:url(images/logo.png)
+	  image:'images/logo.png'
 	  background-size:100% 100%
 	  background-position:center top
 	  background-repeat:no-repeat
@@ -50,8 +41,11 @@ nav.menu menu
 	margin-left: auto
 	margin-right: auto
   li
-	  background-image:url(images/li-bg.png)
+	  image : 'images/li-bg.png'
 	  height:38px
+  &:hover /*in lanati kojash eshtebahe :@*/
+	a
+		  image : 'images/nav_hover.png'
     a
 	    display:block
 	    padding-bottom:10px
@@ -66,13 +60,11 @@ nav.menu menu
 	    text-transform:uppercase
 	    text-shadow: 2px 2px 1px black
 
-nav.menu li:hover a /*hover be in halat ro chetor bayad zad to stylus?*/
-	background-image:url(images/nav_hover.png)
-
 nav.menu li a:active
 	color:gray
 
-/*********************SLIDESHOW***************************/
+/* SlideShow section
+-------------------------------------------------- */
 
 section.slideshow
   div.noise
@@ -84,7 +76,7 @@ section.slideshow
 	  z-index  :-1
 	  background-position :left top
 	  background-repeat   :repeat
-	  background-image    :url(images/picefct.png)
+	  image : 'images/picefct.png'
 
   div.backimg
     div.slideshow
@@ -98,20 +90,19 @@ section.slideshow
 	    background-repeat   :no-repeat
 	    background-size     :cover
 
-/*********************RIGHT-PANEL***************************/
+/* RightPanel section
+-------------------------------------------------- */
 
 menu.right-panel
-	position: fixed
-	top: 0
-	bottom:0
+	fixed top bottom
 	right:10px
 	width:190px
-	background-image:url(images/slide-bg.png)
+	image : 'images/slide-bg.png'
 	padding-top:1px
 	opacity:.5
 	transition:opacity 800ms
-&:hover
-	opacity:1
+	&:hover /*ah ahhhh che ghadr gher o fer dare hover to stylus to less aslan Ejor nis*/
+		opacity:1
 
 
 menu.right-panel > li /*how to write it with stylus?*/
