@@ -11,15 +11,13 @@
 	<script type="text/javascript" src="scripts/script.js"></script>
 </head>
 <body>
-<header>
+<header class="main">
 	<div class="head-line"></div>
 </header>
 <section class="aside">
 	<div class="top-bg"></div>
 	<nav class="menu">
-		<div class="logo">
-			<h1>Arc Panel 3D</h1>
-		</div>
+		<div class="logo"><img class="logo" src="images/logo.png" width="190" height="62" /></div>
 		<menu>
 			<li><a href="#">home</a></li>
 			<li><a href="#">about</a></li>
@@ -49,6 +47,7 @@
 	</div>
 </section>
 <footer>
+	<div class="foot-line"></div>
 </footer>
 </body>
 </html>
