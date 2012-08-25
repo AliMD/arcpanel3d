@@ -107,8 +107,10 @@ div.slideshow section.desc h1 p
 
 /* RightPanel section
 -------------------------------------------------- */
+aside.right-aside
+	relative
 
-menu.right-panel
+aside.right-aside menu.right-panel
 	fixed top bottom
 	right 30px
 	width 190px
@@ -120,12 +122,25 @@ menu.right-panel
 		opacity 1
 
 
-menu.right-panel > li /*how to write it with stylus?*/
+aside.right-aside menu.right-panel > li /*how to write it with stylus?*/
 	height 91px
 	width 161px
 	padding-top 20px
 	background-repeat no-repeat
 	margin  0 auto
+
+/* RightPanel Marker
+-------------------------------------------------- */
+aside.right-aside div.marker
+	absolute right 216px top 284px
+	image 'images/marker.png'
+	height 25px
+	width 15px
+	opacity .5
+	transition opacity 800ms
+aside.right-aside:hover div.marker
+	opacity 1
+
 
 /* Media section
 -------------------------------------------------- */
