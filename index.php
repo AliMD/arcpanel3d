@@ -47,6 +47,7 @@
 	</div>
 </section>
 <footer>
+	<p>Copyright © 2012. All rights reserved. check this project at <a href="#">Github</a>.</p>
 	<div class="foot-line"></div>
 </footer>
 </body>
