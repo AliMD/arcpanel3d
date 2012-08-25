@@ -1,4 +1,4 @@
-<!DOCTYPE 5 system "about:legacy-compat">
+<!DOCTYPE html system "about:legacy-compat">
 <html lang="en-US">
 <head>
 	<meta charset="utf-8" />
@@ -48,6 +48,11 @@
 </section>
 <footer>
 	<p>Copyright © 2012. All rights reserved. check this project at <a href="#">Github</a>.</p>
+	<div class="media-button">
+		<div class="pre"></div>
+		<div class="next"></div>
+		<div class="play"></div>
+	</div>
 	<div class="foot-line"></div>
 </footer>
 </body>
