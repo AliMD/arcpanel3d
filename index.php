@@ -14,7 +14,7 @@
 <header class="main">
 	<div class="head-line"></div>
 </header>
-<section class="aside">
+<section class="left-panel">
 	<div class="top-bg"></div>
 	<nav class="menu">
 		<div class="logo"><img class="logo" src="images/logo.png" width="190" height="62" /></div>
