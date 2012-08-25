@@ -41,7 +41,9 @@
 	<div class="backimg">
 
 		<script type="text/javascript">/*better to change it to PHP*/
-			for(var i=1;i<7;i++) document.write('<div class="slideshow" style="background-image :url(images/gallery/'+i+'.jpg);"></div>');
+			for(var i=1;i<7;i++) document.write(
+				'<div class="slideshow" style="background-image :url(images/gallery/'+i+'.jpg);">	<section class="desc"><h1><p></p></h1></section></div>'
+				);
 		</script>
 
 	</div>
