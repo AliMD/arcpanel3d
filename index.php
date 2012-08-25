@@ -17,7 +17,7 @@
 <section class="left-panel">
 	<div class="top-bg"></div>
 	<nav class="menu">
-		<div class="logo"><img class="logo" src="images/logo.png" width="190" height="62" /></div>
+		<div class="logo"><img src="images/logo.png" width="190" height="62" /></div>
 		<menu>
 			<li><a href="#">home</a></li>
 			<li><a href="#">about</a></li>
