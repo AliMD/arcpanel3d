@@ -49,20 +49,6 @@
 	</div>
 </section>
 <footer>
-	<div class="desc">
-		<p>social links:</p>
-		<div class="social">
-			<div class="google">
-				<div class="tooltip">google plus</div>
-			</div>
-			<div class="foresst">
-				<div class="tooltip">foresst</div>
-			</div>
-			<div class="drible">
-				<div class="tooltip">drible</div>
-			</div>
-		</div>
-	</div>
 </footer>
 </body>
 </html>
