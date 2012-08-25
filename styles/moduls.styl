@@ -1,39 +1,32 @@
 /* Menu section
 -------------------------------------------------- */
 section.aside
-	absolute top 40px left 10px
+	absolute top 60px left 10px
 	z-index: 2
   div.top-bg
 	  image : 'images/top-nav.png'
 	  height:35px
-	  width:231px
+	  width:246px
 	  background-size:100% 100%
   div.bot-bg
 	  image : 'images/bot-nav.png'
 	  height:54px
-	  width:231px
+	  width:246px
 	  background-size:100% 100%
 
 nav.menu
-	width:228px
-	min-height:450px
-	padding-top:1px
+	width:246px
+	min-height:400px
+	padding-top:20px
 	image:'images/nav-bg.png'
 	background-repeat: repeat-y
   div.logo
-	  image:'images/logo.png'
-	  background-size:100% 100%
-	  background-position:center top
-	  background-repeat:no-repeat
-	  width:200px
-	  height:65px
-	  margin-top:30px
-	  overflow:hidden
+	  width:190px
+	  height:62px
 	  margin-left: auto
 	  margin-right: auto
-    h1
-	    text-indent:-50000px
-	    white-space: nowrap
+	img
+	  display:block
 
 nav.menu menu
 	margin-top:55px
@@ -42,23 +35,24 @@ nav.menu menu
 	margin-right: auto
   li
 	  image : 'images/li-bg.png'
-	  height:38px
+	  background-position:center bottom
+	  background-repeat:no-repeat
   &:hover /*in lanati kojash eshtebahe :@*/
 	a
 		  image : 'images/nav_hover.png'
     a
 	    display:block
-	    padding-bottom:10px
-	    padding-top:10px
+	    padding-bottom:12px
+	    padding-top:18px
 	    text-decoration:none
 	    color:#FFF
 	    font-size:15px
-	    letter-spacing:2px
-	    font-family:"Times New Roman", Times, serif
+	    letter-spacing:-1px
+	    font-family:"Times New Roman", Times, serif /*khode site zade "Arial, Helvetica, sans-serif" ama shabih tarin font behesh timesNewRoman e !!*/
 	    font-weight:bold
 	    text-align:center
 	    text-transform:uppercase
-	    text-shadow: 2px 2px 1px black
+	    text-shadow: 1px 1px 3px black
 
 nav.menu li a:active
 	color:gray
