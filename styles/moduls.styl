@@ -1,122 +1,176 @@
-vendors = webkit moz o ms official
-transition()
-	for vendor in vendors
-		if vendor == official
-			transition: arguments
-		else
-			-{vendor}-transition: arguments
-
-
-/*********************MENU***************************/
-section.aside
-	position: absolute
-	top: 40px
-	left: 10px
-	z-index: 2
+/* Menu section
+-------------------------------------------------- */
+section.left-panel
+	absolute top 40px left 20px
+	z-index  2
   div.top-bg
-	  background-image:url(images/top-nav.png)
-	  height:35px
-	  width:231px
-	  background-size:100% 100%
+	  image   'images/top-nav.png'
+	  height 35px
+	  width 246px
+	  background-size 100% 100%
   div.bot-bg
-	  background-image:url(images/bot-nav.png)
-	  height:54px
-	  width:231px
-	  background-size:100% 100%
+	  image   'images/bot-nav.png'
+	  height 54px
+	  width 246px
+	  background-size 100% 100%
 
 nav.menu
-	width:228px
-	min-height:450px
-	padding-top:1px
-	background:url(images/nav-bg.png) repeat-y
+	width 246px
+	min-height 400px
+	padding-top 20px
+	image 'images/nav-bg.png'
+	background-repeat  repeat-y
   div.logo
-	  background-image:url(images/logo.png)
-	  background-size:100% 100%
-	  background-position:center top
-	  background-repeat:no-repeat
-	  width:200px
-	  height:65px
-	  margin-top:30px
-	  overflow:hidden
-	  margin-left: auto
-	  margin-right: auto
-    h1
-	    text-indent:-50000px
-	    white-space: nowrap
+	  width 190px
+	  height 62px
+	  margin-left  auto
+	  margin-right  auto
+	img
+	  display block
 
 nav.menu menu
-	margin-top:55px
-	width:184px
-	margin-left: auto
-	margin-right: auto
+	margin-top 55px
+	width 184px
+	margin-left  auto
+	margin-right  auto
   li
-	  background-image:url(images/li-bg.png)
-	  height:38px
+	  image   'images/li-bg.png'
+	  background-position center bottom
+	  background-repeat no-repeat
+  &:hover /*in lanati kojash eshtebahe :@*/
     a
-	    display:block
-	    padding-bottom:10px
-	    padding-top:10px
-	    text-decoration:none
-	    color:#FFF
-	    font-size:15px
-	    letter-spacing:2px
-	    font-family:"Times New Roman", Times, serif
-	    font-weight:bold
-	    text-align:center
-	    text-transform:uppercase
-	    text-shadow: 2px 2px 1px black
-
-nav.menu li:hover a /*hover be in halat ro chetor bayad zad to stylus?*/
-	background-image:url(images/nav_hover.png)
+		  image   'images/nav_hover.png'
+    nav.menu li a
+	    display block
+	    padding-bottom 12px
+	    padding-top 18px
+	    text-decoration none
+	    color #FFF
+	    font-size 15px
+	    letter-spacing -1px
+	    font-family "Times New Roman", Times, serif /*khode site zade "Arial, Helvetica, sans-serif" ama shabih tarin font behesh timesNewRoman e !!*/
+	    font-weight bold
+	    text-align center
+	    text-transform uppercase
+	    text-shadow  1px 1px 3px black
 
 nav.menu li a:active
-	color:gray
+	color gray
 
-/*********************SLIDESHOW***************************/
+/* SlideShow section
+-------------------------------------------------- */
 
 section.slideshow
   div.noise
-	  position :fixed
-	  top      :0
-	  left     :0
-	  right    :0
-	  bottom   :0
-	  z-index  :-1
-	  background-position :left top
-	  background-repeat   :repeat
-	  background-image    :url(images/picefct.png)
+	  position  fixed
+	  top       0
+	  left      0
+	  right      0
+	  bottom    0
+	  z-index   -1
+	  background-position  left top
+	  background-repeat    repeat
+	  image   'images/picefct.png'
 
   div.backimg
     div.slideshow
-	    position :fixed
-	    top      :0
-	    left     :0
-	    right    :0
-	    bottom   :0
-	    z-index  :-2
-	    background-position :center center
-	    background-repeat   :no-repeat
-	    background-size     :cover
+	    position  fixed
+	    top       0
+	    left      0
+	    right     0
+	    bottom    0
+	    z-index   -2
+	    background-position  center center
+	    background-repeat    no-repeat
+	    background-size      cover
 
-/*********************RIGHT-PANEL***************************/
+/* SlideShow Text section
+-------------------------------------------------- */
 
-menu.right-panel
-	position: fixed
-	top: 0
-	bottom:0
-	right:10px
-	width:190px
-	background-image:url(images/slide-bg.png)
-	padding-top:1px
-	opacity:.5
-	transition:opacity 800ms
-&:hover
-	opacity:1
+div.slideshow section.desc
+	absolute right 290px bottom 190px
+	min-height 150px
+	width 350px
+	outline 1px solid red
+	z-index 3
+
+div.slideshow section.desc h1
+	float left
+	clear both
+	relative
+
+div.slideshow section.desc h1 p
+	float left
+	clear both
+	width 100%
+	relative
+
+/* RightPanel section
+-------------------------------------------------- */
+aside.right-aside
+	relative
+
+aside.right-aside menu.right-panel
+	fixed top bottom
+	right 30px
+	width 190px
+	image   'images/slide-bg.png'
+	padding-top 1px
+	opacity .5
+	transition opacity 800ms
+	&:hover /*ah ahhhh che ghadr gher o fer dare hover to stylus to less aslan Ejor nis*/
+		opacity 1
 
 
-menu.right-panel > li /*how to write it with stylus?*/
-	height:91px
-	width:161px
-	padding-top:20px
-	background-repeat:no-repeat
-	margin: 0 auto
+aside.right-aside menu.right-panel > li /*how to write it with stylus?*/
+	height 91px
+	width 161px
+	padding-top 20px
+	background-repeat no-repeat
+	margin  0 auto
+
+/* RightPanel Marker
+-------------------------------------------------- */
+
+aside.right-aside div.marker
+	absolute right 216px top 284px
+	image 'images/marker.png'
+	height 25px
+	width 15px
+	opacity .5
+	transition opacity 800ms
+aside.right-aside:hover div.marker
+	opacity 1
+
+
+/* Media section
+-------------------------------------------------- */
+
+footer div.media-button
+	float right
+	width 90px
+	height 22px
+	margin-top 15px
+	margin-right 65px
+
+div.media-button > div
+	background-position 21px 0
+	height 22px
+	cursor pointer
+div.media-button > div:hover
+	background-position 22px 23px
+
+div.media-button div.pre
+	float left
+	image 'images/pre.png'
+	width 22px
+
+div.media-button div.next
+	float right
+	image 'images/next.png'
+	width 22px
+
+div.media-button div.play
+	margin-left 34px
+	margin-right 34px
+	image 'images/play.png'

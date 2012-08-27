@@ -31,3 +31,8 @@
 		}
 	});
 })($)
+
+$(function(){
+	$('.backimg > div.slideshow').fadeLoop();
+});
+
