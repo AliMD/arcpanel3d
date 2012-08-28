@@ -4,55 +4,55 @@ section.left-panel
 	absolute top 40px left 20px
 	z-index  2
 	div.top-bg
-		image   'images/top-nav.png'
-		height 35px
-		width 246px
+		image   		'images/top-nav.png'
+		height 			35px
+		width 			246px
 		background-size 100% 100%
 	div.bot-bg
-		image   'images/bot-nav.png'
-		height 54px
-		width 246px
+		image   						'images/bot-nav.png'
+		height 							54px
+		width 							246px
 		background-size 100% 100%
 
 nav.menu
-	width 246px
-	min-height 400px
-	padding-top 20px
-	image 'images/nav-bg.png'
+	width 				246px
+	min-height 			400px
+	padding-top 		20px
+	image 				'images/nav-bg.png'
 	background-repeat  repeat-y
 	div.logo
-		width 190px
-		height 62px
-		margin-left  auto
-		margin-right  auto
+		width 			190px
+		height 			62px
+		margin-left  	auto
+		margin-right  	auto
 	img
 		display block
 
 nav.menu menu
-	margin-top 55px
-	width 184px
-	margin-left  auto
-	margin-right  auto
+	margin-top 		55px
+	width 			184px
+	margin-left 	auto
+	margin-right	auto
 	li
-		image   'images/li-bg.png'
+		image   			'images/li-bg.png'
 		background-position center bottom
-		background-repeat no-repeat
-	&:hover /*in lanati kojash eshtebahe :@*/
+		background-repeat 	no-repeat
+	&:hover
 		a
 			image   'images/nav_hover.png'
 		nav.menu li a
-			display block
-			padding-bottom 12px
-			padding-top 18px
+			display 		block
+			padding-bottom 	12px
+			padding-top 	18px
 			text-decoration none
-			color #FFF
-			font-size 15px
-			letter-spacing -1px
-			font-family "Times New Roman", Times, serif /*khode site zade "Arial, Helvetica, sans-serif" ama shabih tarin font behesh timesNewRoman e !!*/
-			font-weight bold
-			text-align center
-			text-transform uppercase
-			text-shadow  1px 1px 3px black
+			color 			#FFF
+			font-size 		15px
+			letter-spacing 	-1px
+			font-family 	"Times New Roman", Times, serif /*khode site zade "Arial, Helvetica, sans-serif" ama shabih tarin font behesh timesNewRoman e !!*/
+			font-weight		bold
+			text-align 		center
+			text-transform 	uppercase
+			text-shadow  	1px 1px 3px black
 
 nav.menu li a:active
 	color gray
@@ -62,24 +62,24 @@ nav.menu li a:active
 
 section.slideshow
 	div.noise
-		position  fixed
-		top       0
-		left      0
-		right      0
-		bottom    0
-		z-index   -1
-		background-position  left top
-		background-repeat    repeat
-		image   'images/picefct.png'
-
+		position  			fixed
+		top       			0
+		left      			0
+		right     			0
+		bottom    			0
+		z-index   			-1
+		background-position left top
+		background-repeat   repeat
+		image   			'images/picefct.png'
+				
 	div.backimg
 		div.slideshow
-			position  fixed
-			top       0
-			left      0
-			right     0
-			bottom    0
-			z-index   -2
+			position  			fixed
+			top       			0
+			left      			0
+			right     			0
+			bottom    			0
+			z-index  			 -2
 			background-position  center center
 			background-repeat    no-repeat
 			background-size      cover
@@ -87,22 +87,22 @@ section.slideshow
 /* SlideShow Text section
 -------------------------------------------------- */
 
-div.slideshow section.desc
-	absolute right 290px bottom 190px
-	min-height 150px
-	width 350px
-	outline 1px solid red
-	z-index 3
+div.slideshow article.desc
+	absolute 	right 290px bottom 190px
+	min-height 	150px
+	width 		350px
+	outline 	1px solid red
+	z-index 	3
 
-div.slideshow section.desc h1
-	float left
-	clear both
+div.slideshow article.desc h1
+	float 	left
+	clear 	both
 	relative
 
-div.slideshow section.desc h1 p
-	float left
-	clear both
-	width 100%
+div.slideshow article.desc h1 p
+	float 	left
+	clear 	both
+	width 	100%
 	relative
 
 /* RightPanel section
@@ -111,34 +111,35 @@ aside.right-aside
 	relative
 
 aside.right-aside menu.right-panel
-	fixed top bottom
-	right 30px
-	width 190px
-	image   'images/slide-bg.png'
+	fixed 		top bottom
+	right 		30px
+	width 		190px
+	image   	'images/slide-bg.png'
 	padding-top 1px
-	opacity .5
-	transition opacity 800ms
-	&:hover /*ah ahhhh che ghadr gher o fer dare hover to stylus to less aslan Ejor nis*/
+	opacity 	.5
+	transition 	opacity 800ms
+	&:hover
 		opacity 1
 
 
-aside.right-aside menu.right-panel > li /*how to write it with stylus?*/
-	height 91px
-	width 161px
-	padding-top 20px
-	background-repeat no-repeat
-	margin  0 auto
+aside.right-aside menu.right-panel > li
+	height				91px
+	width				161px
+	padding-top 		20px
+	background-repeat 	no-repeat
+	margin  			0 auto
 
 /* RightPanel Marker
 -------------------------------------------------- */
 
 aside.right-aside div.marker
-	absolute right 216px top 284px
-	image 'images/marker.png'
-	height 25px
-	width 15px
-	opacity .5
-	transition opacity 800ms
+	absolute 	right 216px top 284px
+	image 		'images/marker.png'
+	height 		25px
+	width 		15px
+	opacity 	.5
+	transition 	opacity 800ms
+
 aside.right-aside:hover div.marker
 	opacity 1
 
@@ -155,8 +156,8 @@ footer div.media-button
 
 div.media-button > div
 	background-position 21px 0
-	height 22px
-	cursor pointer
+	height 				22px
+	cursor 				pointer
 div.media-button > div:hover
 	background-position 22px 23px
 
@@ -171,6 +172,6 @@ div.media-button div.next
 	width 22px
 
 div.media-button div.play
-	margin-left 34px
-	margin-right 34px
-	image 'images/play.png'
+	margin-left 	34px
+	margin-right 	34px
+	image 			'images/play.png'
