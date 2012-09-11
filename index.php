@@ -28,7 +28,7 @@
 	</nav>
 	<div class="bot-bg"></div>
 </section>
-<aside class="right-aside"><!--MONDAM CHE CLASSI BEZARAM :D-->
+<aside class="right-aside">
 	<menu class="right-panel"> <!--should coded with php to load images-->
 		<li><a href="#"><img src="images/right-side/1.png" alt="image1" tooltip="" /></a></li>
 		<li><a href="#"><img src="images/right-side/2.png" alt="image2" tooltip="" /></a></li>
@@ -45,7 +45,7 @@
 
 		<script type="text/javascript">/*better to change it to PHP*/
 			for(var i=1;i<7;i++) document.write(
-				'<div class="slideshow" style="background-image :url(images/gallery/'+i+'.jpg);">	<section class="desc"><h1><p></p></h1></section></div>'
+				'<div class="slideshow" style="background-image :url(images/gallery/'+i+'.jpg);"><article class="desc"><h1></h1><p></p></article></div>'
 				);
 		</script>
 
